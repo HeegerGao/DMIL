@@ -34,7 +34,7 @@ Run `python ./metaworld/collect_demo.py` to get all demonstrations. By doing so,
 
 We use off-the-shelf demonstrations as mentioned on the page 15 of [FIST](https://openreview.net/pdf?id=xKZ4K0lTj_). There are a total of 24 multitask long horizon sets of trajectories that the data is collected from. Each trajectory set is sampled at least 10 times via VR tele-operation procedure.
 
-However, preparing these demonstrations is extremely cumbersome. You need to follow [this](https://github.com/google-research/relay-policy-learning) to get and process original demonstration files. Firstly we need to transform original VR files into .pkl files, then we need to filter them to different tasks and store them as .npy files. Alternatively, we provide processed demonstrations here. You can unzip `provided_files.zip` and put `kitchen_demos` folder under `./kitchen/`.
+However, preparing these demonstrations is extremely cumbersome. You need to follow [this](https://github.com/google-research/relay-policy-learning) to get and process original demonstration files. Firstly we need to transform original VR files into .pkl files, then we need to filter them to different tasks and store them as .npy files. Alternatively, we provide processed demonstrations here. You can go to `./kitchen/kitchen_demos` to get them and put all demos under a `kitchen_demos` folder under `./kitchen/` to run the code.
 
 ## General Usage
 
