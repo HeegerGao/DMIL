@@ -12,14 +12,11 @@ Code for Transfering Hierarchical Structure with Dual Meta Imitation Learning.
     - [Kitchen](#kitchen-1)
   - [Detailed Instructions for Reproducibility](#detailed-instructions-for-reproducibility)
     - [Results of Table 1](#results-of-table-1)
-      - [DMIL](#dmil)
-      - [Baselines](#baselines)
     - [Results of Table 2](#results-of-table-2)
     - [Results of Table 3](#results-of-table-3)
     - [Results of Table 4](#results-of-table-4)
     - [Results of Table 5](#results-of-table-5)
     - [Results of Table 6](#results-of-table-6)
-
 
 ## Installation
 
@@ -35,8 +32,7 @@ Run `python ./metaworld/collect_demo.py` to get all demonstrations. By doing so,
 
 ### Kitchen
 
-We use off-the-shelf demonstrations as mentioned on the page 15 of [FIST](https://openreview.net/pdf?id=xKZ4K0lTj_). There are a total of 24 multitask long horizon sets of trajectories that the data is collected from. Each trajectory set is sampled at least
-10 times via VR tele-operation procedure.
+We use off-the-shelf demonstrations as mentioned on the page 15 of [FIST](https://openreview.net/pdf?id=xKZ4K0lTj_). There are a total of 24 multitask long horizon sets of trajectories that the data is collected from. Each trajectory set is sampled at least 10 times via VR tele-operation procedure.
 
 However, preparing these demonstrations is extremely cumbersome. You need to follow [this](https://github.com/google-research/relay-policy-learning) to get and process original demonstration files. Firstly we need to transform original VR files into .pkl files, then we need to filter them to different tasks and store them as .npy files. Alternatively, we provide processed demonstrations here. You can unzip `provided_files.zip` and put `kitchen_demos` folder under `./kitchen/`.
 
@@ -54,8 +50,6 @@ You shall `cd ./kitchen` firstly. For training, run `python maml.py`. For testin
 
 ### Results of Table 1
 
-#### DMIL
-
 `cd ./metaworld`.
 
 Train: 
@@ -70,28 +64,6 @@ Test:
 
 This will test the trained model on `ML10_test` suite and get success rates with 1-shot and 3-shot learning. You could specify `test_suite` to test in `ML10_train`, `ML10_test`, `ML45_train` and `ML45_test`. 
 
-#### Baselines
-
-OptionGAIL: 
-
-```
-cd ./baseline/OptionGAIL
-python optiongail.py
-```
-
-MLSH: 
-
-```
-cd ./baseline/MLSH
-python mlsh.py
-```
-
-PEMIRL: 
-
-```
-cd ./baseline/PEMIRL
-python scripts/meta_irl.py
-```
 
 ### Results of Table 2
 `cd ./kitchen`.
