@@ -1,6 +1,6 @@
 # Transferring Hierarchical Structure with Dual Meta Imitation Learning
 
-Code for [Transferring Hierarchical Structure with Dual Meta Imitation Learning](https://openreview.net/forum?id=t3E10H8UNz).
+Code for Transferring Hierarchical Structure with Dual Meta Imitation Learning.
 
 - [Transferring Hierarchical Structure with Dual Meta Imitation Learning](#transferring-hierarchical-structure-with-dual-meta-imitation-learning)
   - [Installation](#installation)
