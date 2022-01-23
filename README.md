@@ -1,8 +1,8 @@
-# Transferring Hierarchical Structure with Dual Meta Imitation Learning
+# Transfering Hierarchical Structure with Dual Meta Imitation Learning
 
-Code for Transferring Hierarchical Structure with Dual Meta Imitation Learning.
+Code for Transfering Hierarchical Structure with Dual Meta Imitation Learning.
 
-- [Transferring Hierarchical Structure with Dual Meta Imitation Learning](#transferring-hierarchical-structure-with-dual-meta-imitation-learning)
+- [Transfering Hierarchical Structure with Dual Meta Imitation Learning](#transfering-hierarchical-structure-with-dual-meta-imitation-learning)
   - [Installation](#installation)
   - [Dataset](#dataset)
     - [Meta-world](#meta-world)
