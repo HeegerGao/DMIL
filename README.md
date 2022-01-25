@@ -40,11 +40,11 @@ However, preparing these demonstrations is extremely cumbersome. You need to fol
 
 ### Meta-world
 
-You shall `cd ./metaworld` firstly. For training, run `python maml.py`. For testing, run `python evaluate.py` to get quantitative results and run `python evaluate_vis.py` to see robot manipulating in different environments. You should specify arguments when run above commands. Detailed information about arguments can be found in `arguments.py`.
+You shall `cd ./metaworld` firstly. For training, run `python maml.py`. For testing, run `python evaluate.py` to get quantitative results and run `python evaluate_vis.py` to see robot manipulating in different environments. You should specify arguments when run above commands. Detailed information about arguments can be found in `arguments.py`. We provide trained models with K=3 in the `./trained_models/metaworld` folder.
 
 ### Kitchen
 
-You shall `cd ./kitchen` firstly. For training, run `python maml.py`. For testing, run `python evaluate.py` to get quantitative results and run `python evaluate_vis.py` to see robot manipulating in the Kitchen environment. You should specify arguments when run above commands. Detailed information about arguments can be found in `arguments.py`.
+You shall `cd ./kitchen` firstly. For training, run `python maml.py`. For testing, run `python evaluate.py` to get quantitative results and run `python evaluate_vis.py` to see robot manipulating in the Kitchen environment. You should specify arguments when run above commands. Detailed information about arguments can be found in `arguments.py`. We provide trained models with K=8 in the `./trained_models/kitchen` folder.
 
 ## Detailed Instructions for Reproducibility
 
